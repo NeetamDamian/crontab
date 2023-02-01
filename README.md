@@ -7,11 +7,13 @@ To create a new cron job, you would run **crontab -e** then you need to specify 
 The format of a cron job is:
 
 ![format for crontab job](crontab-2.png)
+
+In the image above, it is **script.sh** is the the script we want to automate.
 For example, to run a command every day at 5 PM, the cron job would look like:
 
 `0 17 * * * /path/to/command`
 
-In the image above, it is **script.sh** is the the script we want to automate. To list your current cron jobs, you would run **crontab -l**.
+To list your current cron jobs, you would run **crontab -l**.
 
 Here are some common uses of cron jobs:
 
